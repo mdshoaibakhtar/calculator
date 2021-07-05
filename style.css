@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
+
+.container {
+    text-align: center;
+    margin: 33px 233px;
+    border: 2px solid red;
+    padding: 10px 0px;
+    border-radius: 12px;
+    background: #607d8b;
+}
+
+input {
+    background: rgb(98 125 78 / 67%);
+    text-align: center;
+    border-radius: 3px;
+    /* border: 2px solid black; */
+    border-radius: 14px;
+    padding: 12px 50px;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 9px;
+}
+button{   
+     padding: 15px 29px;
+    background: rgb(255 255 255);
+    border-radius: 42px;
+    width: 45px;
+    margin: 2px;
+
+}
+button:hover{
+    background: rgb(67, 100, 102);
+}
+/* #plus{
+    padding: 12.5px 14.5px;
+}
+#minus{
+    padding:13px 16px;
+}
+#bracl{
+      padding: 14px 17px;
+}
+#bracr{
+        padding: 14px 18px;
+}
+#zero{
+    padding: 14px 15px;
+}
+#equal{
+    padding: 13.5px 14px;
+} */
