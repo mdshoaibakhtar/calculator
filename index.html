@@ -1,91 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <title>calculator</title>
-
-    <style>
-        body {
-            margin: 0px;
-            padding: 0px;
-        }
-
-        input {
-            background: white;
-            font-weight: bold;
-            font-size: 2rem;
-            color: #000000;
-            margin-top: 4px;
-            /* border: 2px solid black; */
-            border-radius: 3px;
-            width: 250px;
-            height: 40px;
-        }
-
-        .container {
-            background: #3c6c8e;
-            height: 450px;
-            width: 290px;
-            text-align: center;
-            justify-content: center;
-            margin-left: 150px;
-            margin-top: 70px;
-            border-radius: 8px;
-        }
-
-        table {
-            margin: auto;
-        }
-
-        button {
-            display: inline;
-            width: 60px;
-            height: 55px;
-            border-radius: 15px;
-            color: #fbff00;
-            font-weight: 900;
-            background: #b33030;
-            margin-top: 10px;
-        }
-    </style>
+    <title>Document</title>
 </head>
+<style>
 
+    #calculator{
+        /* margin:160px; */
+        text-align: center;
+        background: #000;
+        height: 345px;
+        border-radius: 20px;
+        width: 299px;
+        margin: auto;
+
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        border-radius: 15px;
+        margin: 2px;
+    }
+    #pls{
+        /* width: 150px; */
+    }
+    #eql{
+        width: 125px;
+    }
+    input{
+        margin-bottom: 3px;
+        margin-top:15px ;
+        width: 260px;
+        height: 30px;
+        border-radius: 15px;
+        border: 2px solid black;
+    }
+</style>
 <body>
-    <div class="container">
-        <input type="text" name="screen" placeholder=" ">
-
-        <table class="btn">
-            <tr>
-                <td><button>1</button></td>
-                <td><button>2</button></td>
-                <td><button>3</button></td>
-                <td><button>c</button></td> 
-            </tr>
-            <tr>
-                <td><button>4</button></td>
-                <td><button>5</button></td>
-                <td><button>6</button></td>
-                <td><button id="plus">+</button></td>
-            </tr>
-            <tr>
-                <td><button>7</button></td>
-                <td><button>8</button></td>
-                <td><button>9</button></td>
-                <td><button id="minus">-</button></td>
-            </tr>
-            <tr>
-                <td><button id="bracl">(</button></td>
-                <td><button id="zero">0</button></td>
-                <td><button id="bracr">)</button></td>
-                <td><button id="equal">=</button></td>
-            </tr>
-            <button>Equal</button>
-        </table>
+    <div id="calculator">
+        <input type="text"><br>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>C</button><br>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button id="pls">+</button><br>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>-</button><br>
+        <button>.</button>
+        <button id="zero">0</button>
+        <button id="eql">=</button>
     </div>
 </body>
-
 </html>
